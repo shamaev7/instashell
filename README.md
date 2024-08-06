@@ -33,3 +33,11 @@ sudo ./install.sh
 ### How it works?
 
 Script uses an Android ApkSignature to perform authentication in addition using TOR and rotating the ip address to avoid blocking. 
+apt-get update
+apt-get install tor
+service tor start
+git clone https://github.com/thelinuxchoice/instashell 
+cd instashell
+chmod +x instashell.sh
+./instashell.sh
+
